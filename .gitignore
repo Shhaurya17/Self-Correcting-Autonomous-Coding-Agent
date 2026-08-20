@@ -1,0 +1,40 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Agent workspace - has its own separate nested git repo (see
+# git_manager.py) once the agent runs a task. Nothing under here,
+# including that nested .git/, is meant to be tracked by this repo.
+workspace/*
+!workspace/.gitkeep
